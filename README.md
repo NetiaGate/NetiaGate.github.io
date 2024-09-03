@@ -12,11 +12,11 @@ Znacznie dokładniejszy jest pomiar prądu - powierdził że dekoder "nie zasypi
 W przypadku obu dekoderów (N7700, N7800) z którymi miałem do czynienia, Netia chwali się zawsze niskim zużyciem energii elektrycznej w stanie czuwania wynoszącym ok 0,5 W. Wartość ta jest zgodna z rozporządzeniem [1275/2008](https://eur-lex.europa.eu/eli/reg/2008/1275/oj?locale=pl) oraz [107/2009](https://eur-lex.europa.eu/eli/reg/2009/107/oj?locale=pl).
 
 Netia Player 1.5 (N7700)
-- https://my.netia.pl/pr/280310/nowa-wersja-netia-playera ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/pr/280310/nowa-wersja-netia-playera))
-- https://my.netia.pl/aktualnosci-i-opinie/280348/nowy-netia-player-mniejszy-ale-duzo-mocniejszy ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/aktualnosci-i-opinie/280348/nowy-netia-player-mniejszy-ale-duzo-mocniejszy))
+- [https://my.netia.pl/pr/280310/nowa-wersja-netia-playera](https://my.netia.pl/pr/280310/nowa-wersja-netia-playera) ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/pr/280310/nowa-wersja-netia-playera))
+- [https://my.netia.pl/aktualnosci-i-opinie/280348/nowy-netia-player-mniejszy-ale-duzo-mocniejszy](https://my.netia.pl/aktualnosci-i-opinie/280348/nowy-netia-player-mniejszy-ale-duzo-mocniejszy) ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/aktualnosci-i-opinie/280348/nowy-netia-player-mniejszy-ale-duzo-mocniejszy))
 
 Netia Player 2.0 (N7800)
-- https://my.netia.pl/pr/348521/netia-player-w-nowej-odslonie ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/pr/348521/netia-player-w-nowej-odslonie))
+- [https://my.netia.pl/pr/348521/netia-player-w-nowej-odslonie](https://my.netia.pl/pr/348521/netia-player-w-nowej-odslonie) ([Kopie strony](https://web.archive.org/web/20240301000000*/https://my.netia.pl/pr/348521/netia-player-w-nowej-odslonie))
 
 Wszystko byłoby w porządku, gdyby dekodery "zasypiały" a nie tylko zmieniały kolor diody z zielonej na czerwoną.
 
@@ -98,9 +98,9 @@ Już na powyższych przykładach wyraźnie widać, że dekoder nie spełnia wyma
 W celu przetestowania własnego dekodera, można skorzystać z przygotowanej strony dostępnej [tutaj](https://github.com/NetiaGate/NetiaGate.github.io/raw/master/N7700_linki.htm). Pobierz plik oraz otwórz w przeglądarce internetowej.
 
 Więcej informacji na temat sterowania dekoderem można znaleźć na poniższych stronach:  
-https://github.com/korasinski/pyNetia  
-https://github.com/korasinski/ha-netia  
-https://github.com/pawcik/NetiaRemote
+[https://github.com/korasinski/pyNetia](https://github.com/korasinski/pyNetia)  
+[https://github.com/korasinski/ha-netia](https://github.com/korasinski/ha-netia)  
+[https://github.com/pawcik/NetiaRemote](https://github.com/pawcik/NetiaRemote)
 
 ### 5. Pomiary
 
@@ -108,7 +108,7 @@ Celem pomiarów nie jest idealny pomiar zużycia enerii elektrycznej, a udowodni
 Pomiar zużycia energii został przeprowadzony urządzeniem ORNO OR-WAT-435. Zasilacz niepodłączony do dekodera zużywa na tyle mało energii, że wynik jest zerowy.
 Dekoder jest podłączony do Internetu za pomocą kabla sieciowego. Połączenie z TV kablem HDMI.
 
-Tylko zasilacz | Standby | Włączony | Standby/Włączony |
+| Tylko zasilacz | Standby | Włączony | Standby/Włączony |
 |:-:|:-:|:-:|:-:|
 | 0 W | 3,6 W | 4,8 W | 0,75 |
 
@@ -124,7 +124,7 @@ Założenia:
 - dobowy czas oglądania TV: 5 godz.
 - dobowy czas w stanie uśpienia: 19 godz.
 - koszt 1 kWh: 1 zł (dla uproszczenia obliczeń)
-- maksymalny dopuszczalny pobór mocy w stanie uśpienia (wg Netii i [rozporządzenia KE 1275/2008](https://eur-lex.europa.eu/eli/reg/2008/1275/oj?locale=pl)): 0,5 W
+- maksymalny dopuszczalny pobór mocy w stanie uśpienia (wg Netii, rozporządzenia [1275/2008](https://eur-lex.europa.eu/eli/reg/2008/1275/oj?locale=pl) i [107/2009](https://eur-lex.europa.eu/eli/reg/2009/107/oj?locale=pl)): 0,5 W
 - abonenci TV Netii [wg stanu na 09/2023](https://www.wirtualnemedia.pl/artykul/lista-kanalow-netia-polsat-box-netia-go-plus-telewizja-disney-rebranding): 350 000
 
 Koszt nadmiarowego zużycia energii w stanie czuwania dla wszystkich abonentow wg stanu na 09/2023 (aktualnie będzie znacznie więcej):
