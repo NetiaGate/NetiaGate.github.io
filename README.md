@@ -155,3 +155,11 @@ Pobór w stanie oglądania TV
 Dołączona deklaracja zgodności
 
 <img src="pics/N7700_deklaracja.jpg" alt="Deklaracja zgodności" width="500"/><br>
+
+## Aktualizacje strony
+
+### Aktualizacja 1
+Poprawki kosmetyczne, poprawa linków
+
+### Aktualizacja 2
+W dniu 03.09.2024 sprawa zgłoszona do UOKiK
