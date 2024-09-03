@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dekoder TV N7700 Netii - linki</title>
+</head>
+<body>
+	<h3>Wpisz adres IP dekodera N7700 (znajdziesz go w ustawieniach dekodera w sekcji "Informacje i diagnostyka"):</h3>
+	<input type="text" id="ip-address" value="192.168.100.5">
+
+	<br><br>
+	<p>Wyświetlanie informacji:</p>
+	<a href="#" onclick="openLink('Main/State/get')">Stan dekodera</a><br>
+	<a href="#" onclick="openLink('Live/Channels/getCurrent')">Aktualnie ustawiony kanał</a><br>
+	<a href="#" onclick="openLink('Live/Channels/getList')">Lista wszystkich kanałów</a><br>
+	<a href="#" onclick="openLink('RemoteControl/Volume/get')">Poziom głośności</a><br>
+	<a href="#" onclick="openLink('Applications/State/get')">Stany aplikacji</a><br>
+	<a href="#" onclick="openLink('EPG/Programs/getImage?channelId=tvn24hd')">Miniaturka EPG dla TVN24</a><br>
+
+	<p>Sterowanie dekoderem:</p>
+	<a href="#" onclick="openLink('RemoteControl/KeyHandling/sendKey?key=on_off')">Wł/Wył dekoder</a><br>
+	<a href="#" onclick="openLink('RemoteControl/KeyHandling/sendKey?key=channel_up')">Kanał w górę</a><br>
+	<a href="#" onclick="openLink('RemoteControl/KeyHandling/sendKey?key=channel_down')">Kanał w dół</a><br>
+
+	<script>
+		function openLink(link) {
+			const ipAddress = document.getElementById('ip-address').value;
+			const fullLink = `http://${ipAddress}/${link}`;
+			window.open(fullLink, '_self');
+		}
+	</script>
+</body>
+</html>
