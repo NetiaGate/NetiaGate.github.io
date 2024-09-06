@@ -1,4 +1,4 @@
-# NETIAGATE
+# AFERA NETIAGATE
 
 #### tl;dr Netia oszukuje: dekodery Netii (na pewno N7700 i N7800) nie przechodzą w stan uśpienia (standby) mimo zapalonej czerwonej diody i powołania się na rozporządzenia w deklaracji zgodności. Roczne straty wszystkich użytkowników mogą przekraczać 7,5 mln zł.
 
@@ -115,7 +115,7 @@ Dekoder jest podłączony do Internetu za pomocą kabla sieciowego. Połączenie
 Pomiar prądu stałego za zasilaczem innym miernikiem potwierdził poprawność pomiaru urządzeniem ORNO. W tym przypadku stosunek Standby/Włączony wynosi 0,78
 
 Wnioski z pomiarów:  
-urządzenie w stanie uśpienia zużywa aż 3/4 energii jaką dekoder pobiera podczas pracy czyli odtwarzania TV w jakości HD! Dopuszczalna moc w tym stanie jest przekroczona ponad 7 razy!
+**Dekoder w stanie uśpienia zużywa aż 3/4 energii jaką dekoder pobiera podczas pracy** czyli odtwarzania TV w jakości HD! Dopuszczalna moc w tym stanie **jest przekroczona ponad 7 razy**!
 
 ### 6. Koszty
 
@@ -127,7 +127,7 @@ Założenia:
 - maksymalny dopuszczalny pobór mocy w stanie uśpienia (wg Netii, rozporządzenia [1275/2008](https://eur-lex.europa.eu/eli/reg/2008/1275/oj?locale=pl) i [107/2009](https://eur-lex.europa.eu/eli/reg/2009/107/oj?locale=pl)): 0,5 W
 - abonenci TV Netii [wg stanu na 09/2023](https://www.wirtualnemedia.pl/artykul/lista-kanalow-netia-polsat-box-netia-go-plus-telewizja-disney-rebranding): 350 000
 
-Koszt nadmiarowego zużycia energii w stanie czuwania dla wszystkich abonentow wg stanu na 09/2023 (aktualnie będzie znacznie więcej):
+Koszt **tylko nadmiarowego** zużycia energii w stanie czuwania dla wszystkich abonentow [wg stanu na 09/2023](https://www.wirtualnemedia.pl/artykul/lista-kanalow-netia-polsat-box-netia-go-plus-telewizja-disney-rebranding) (aktualnie będzie znacznie więcej):
 
 | Okres | Zużycie [kWh] | Koszt [zł] |
 |:-:|:-:|:-:|
@@ -163,3 +163,9 @@ Poprawki kosmetyczne, poprawa linków
 
 ### Aktualizacja 2
 W dniu 03.09.2024 sprawa zgłoszona do UOKiK
+
+### Aktualizacja 3 - 06.09.2024
+Poprawki kosmetyczne
+
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c6ab2f891d94a19ac099851683a6a57"}'></script><!-- End Cloudflare Web Analytics -->
