@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "pl-PL" }}">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		{% seo %}
+		<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+		<meta name="google-site-verification" content="kSvs9Zb6ZjjOalVdTRoN5oFdEYwIwbrjPAWP7SPocys"/>
+	</head>
+	<body>
+		<div class="container-lg px-3 my-5 markdown-body">
+
+		{{ content }}
+
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+		<script>anchors.add();</script>
+		<!-- Cloudflare Web Analytics -->
+		<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "07168027d33e4c2494e7869b11b05408"}'></script>
+		<!-- End Cloudflare Web Analytics -->
+	</body>
+</html>

@@ -166,6 +166,3 @@ W dniu 03.09.2024 sprawa zgłoszona do UOKiK
 
 ### Aktualizacja 3 - 06.09.2024
 Poprawki kosmetyczne
-
-
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9c6ab2f891d94a19ac099851683a6a57"}'></script><!-- End Cloudflare Web Analytics -->
