@@ -166,3 +166,6 @@ W dniu 03.09.2024 sprawa zgłoszona do UOKiK
 
 ### Aktualizacja 3 - 06.09.2024
 Poprawki kosmetyczne
+
+### Aktualizacja 4 - 10.09.2024
+UOKiK przekazuje sprawę do UKE
